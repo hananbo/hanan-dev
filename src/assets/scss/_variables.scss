@@ -4,11 +4,11 @@
 
 // Colors
 $color-base: #222; //text, titles
-$color-primary: #04BFBF; // links,
-$color-secondary: #04BFBF; // categories and pagination links
+$color-primary: #6600AA; // links,
+$color-secondary: #6600AA; // categories and pagination links
 
 $color-white: #FFF; // unused
-$color-gray: lighten($color-base, 40%); // bio, rights
+$color-gray: lighten($color-base, 20%); // bio, rights
 $color-gray-border: lighten($color-base, 77%); // vertical sidebar divider
 $color-gray-bg: lighten($color-base, 79%); // icons round border
 

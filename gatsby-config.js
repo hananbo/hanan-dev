@@ -76,8 +76,7 @@ module.exports = {
                         date
                         template
                         draft
-                        description
-                        canonical
+                        description                       
                       }
                     }
                   }

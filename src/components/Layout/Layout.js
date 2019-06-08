@@ -8,17 +8,15 @@ type Props = {
   children: ReactNode,
   title: string,
   description?: string,
-  canonical?: string,
 };
 
 const Layout = ({
-  children, title, description, canonical
+  children, title, description
 }: Props) => (
   <div className={styles.layout}>
     <Helmet>
       <html lang="en"/>
       <title>{title}</title>
-      { canonical && <link rel="canonical" href={canonical}/>}
       <meta name="description" content={description}/>
       <meta property="og:site_name" content={title}/>
       <meta name="twitter:card" content="summary"/>

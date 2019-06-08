@@ -8,7 +8,6 @@ tags:
   - "Tech Debt"
   - "Communication"
   - "Team Lead"
-canonical: "https://hackernoon.com/how-to-communicate-tech-debt-in-your-organization-f22a43633656"
 description: "Some types of tech debt can not be paid gradually and will require long & focused effort to solve..."
 ---
 

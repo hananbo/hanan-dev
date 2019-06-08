@@ -8,7 +8,6 @@ describe('Layout', () => {
     children: 'test',
     description: 'test',
     title: 'test',
-    canonical: 'test',
   };
 
   it('renders correctly', () => {

@@ -34,12 +34,14 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
       <Sidebar isIndex />
       <Page>
         <Feed edges={edges} />
-        <Pagination
+        { hasNextPage && hasPrevPage
+        && <Pagination
           prevPagePath={prevPagePath}
           nextPagePath={nextPagePath}
           hasPrevPage={hasPrevPage}
           hasNextPage={hasNextPage}
         />
+        }
       </Page>
     </Layout>
   );

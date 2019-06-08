@@ -16,12 +16,11 @@
       @include margin-bottom(.5);
 
       &-link {
-        color: $color-base;
+        color: $color-primary;
         font-weight: 900;
 
         &:hover,
         &:focus {
-          color: $color-base;
           border-bottom: 1px solid $color-base;
         }
 

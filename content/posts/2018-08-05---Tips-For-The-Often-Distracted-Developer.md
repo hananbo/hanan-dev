@@ -9,7 +9,6 @@ tags:
   - "Deep Work"
   - "Tips"
 description: "Tips on how to eliminate distractions and tweak your environment & time towards less frustrating and more productive deep work."
-canonical: "https://hackernoon.com/tips-for-the-often-distracted-developer-5512b0383c45"
 ---
 
 ![focus.png](/media/focus.png)
