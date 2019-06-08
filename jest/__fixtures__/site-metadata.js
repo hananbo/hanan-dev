@@ -30,6 +30,7 @@ module.exports = {
         contacts: {
           twitter: '#',
           github: '#',
+          linkedin: '#',
         }
       }
     }

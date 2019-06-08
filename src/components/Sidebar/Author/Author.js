@@ -2,6 +2,7 @@
 import React from 'react';
 import { withPrefix, Link } from 'gatsby';
 import styles from './Author.module.scss';
+import Bio from '../../Bio/Bio';
 
 type Props = {
   author: {
@@ -33,7 +34,7 @@ const Author = ({ author, isIndex }: Props) => (
         <Link className={styles['author__title-link']} to="/">{author.name}</Link>
       </h2>
     )}
-    <p className={styles['author__subtitle']}>{author.bio}</p>
+    <Bio/>
   </div>
 );
 

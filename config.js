@@ -3,32 +3,17 @@
 module.exports = {
   url: 'https://hanan.dev',
   title: 'Software Development Blog By Hanan Benold',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  subtitle: 'Where i write about software development and the culture around it', // description meta tag
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 5,
   googleAnalyticsId: 'UA-73379983-2',
-  menu: [
-    {
-      label: 'Articles',
-      path: '/'
-    },
-    {
-      label: 'About me',
-      path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
-  ],
   author: {
     name: 'Hanan Benold',
     photo: '/photo.jpg',
-    bio: '',
     contacts: {
-      twitter: '#',
-      github: '#',
+      twitter: 'https://twitter.com/HananBenold',
+      github: 'https://github.com/hananbo',
+      linkedin: 'https://www.linkedin.com/in/hanan-benold/'
     }
   }
 };

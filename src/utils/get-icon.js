@@ -11,8 +11,8 @@ const getIcon = (name: string) => {
     case 'github':
       icon = ICONS.GITHUB;
       break;
-    case 'email':
-      icon = ICONS.EMAIL;
+    case 'linkedin':
+      icon = ICONS.LINKEDIN;
       break;
     default:
       icon = {};

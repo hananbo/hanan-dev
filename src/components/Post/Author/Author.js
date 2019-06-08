@@ -3,6 +3,7 @@ import React from 'react';
 import { getContactHref } from '../../../utils';
 import styles from './Author.module.scss';
 import { useSiteMetadata } from '../../../hooks';
+import Bio from '../../Bio/Bio';
 
 const Author = () => {
   const { author } = useSiteMetadata();
@@ -10,7 +11,7 @@ const Author = () => {
   return (
     <div className={styles['author']}>
       <p className={styles['author__bio']}>
-        {author.bio}
+        <Bio />
         <a
           className={styles['author__bio-twitter']}
           href={getContactHref('twitter', author.contacts.twitter)}

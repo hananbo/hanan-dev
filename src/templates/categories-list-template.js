@@ -8,7 +8,7 @@ import Page from '../components/Page';
 import { useSiteMetadata, useCategoriesList } from '../hooks';
 
 const CategoriesListTemplate = () => {
-  const { title, subtitle } = useSiteMetadata();
+  const { title } = useSiteMetadata();
   const categories = useCategoriesList();
 
   return (

@@ -9,21 +9,16 @@ const useSiteMetadata = () => {
           siteMetadata {
             author {
               name
-              bio
               photo
               contacts {
                 twitter
                 github
+                linkedin
               }
-            }
-            menu {
-              label
-              path
             }
             url
             title
             subtitle
-            copyright
             disqusShortname
           }
         }
