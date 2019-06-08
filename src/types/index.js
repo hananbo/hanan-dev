@@ -26,6 +26,7 @@ export type Node = {
     description?: string,
     tags?: string[],
     title: string,
+    canonical?: string,
   },
   html: string,
   id: string

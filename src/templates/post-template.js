@@ -11,11 +11,12 @@ type Props = {
 
 const PostTemplate = ({ data }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
-  const { title: postTitle, description: postDescription } = data.markdownRemark.frontmatter;
+  // eslint-disable-next-line max-len
+  const { title: postTitle, description: postDescription, canonical: postCanonical } = data.markdownRemark.frontmatter;
   const metaDescription = postDescription !== null ? postDescription : siteSubtitle;
 
   return (
-    <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription}>
+    <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription} canonical={postCanonical}>
       <Post post={data.markdownRemark} />
     </Layout>
   );
@@ -36,6 +37,7 @@ export const query = graphql`
         description
         tags
         title
+        canonical
       }
     }
   }
